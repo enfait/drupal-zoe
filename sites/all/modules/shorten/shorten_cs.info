@@ -1,0 +1,17 @@
+; $Id$
+name = Shorten URLs Custom Services
+description = "Allows administrators to specify custom URL shortening services. <strong>Advanced users only.</strong>"
+core = 7.x
+configure = admin/config/shorten/custom
+dependencies[] = shorten
+
+files[] = shorten_cs.admin.inc
+files[] = shorten_cs.install
+files[] = shorten_cs.module
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "7.x-1.0"
+core = "7.x"
+project = "shorten"
+datestamp = "1295774216"
+
